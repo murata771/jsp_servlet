@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.Date,java.text.SimpleDateFormat"%>
-<%--占いを行うアプリケーション --%>
+<%--占いを行ってブラウザに表示するアプリケーション --%>
 <%
 String[] luckArray={"大吉","中吉","小吉","凶"};
  double index=Math.random()*3;
